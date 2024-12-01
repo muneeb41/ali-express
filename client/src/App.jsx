@@ -14,8 +14,8 @@ import { Provider } from "react-redux";
 import store from '../src/redux/store.js';
 import Cart from "./pages/cart/index.jsx";
 import Phone from "./pages/Phone/index.jsx";
-import Groceries from "./pages/groceries/index.jsx";
-import KitchenAccessories from "./pages/kitchen-accessories/index.jsx";
+import Groceries from "./pages/Groceries/index.jsx";
+import KitchenAccessories from "./pages/Kitchen-accessories/index.jsx";
 import WelcomeDeal from "./pages/welcome-deal/index.jsx";
 import ProductDetails from "./pages/product-details/index.jsx";
 
