@@ -10,6 +10,11 @@ import authRouter from './routes/authRoutes.js'
 const app = express();
 dotenv.config()
 
+const allowedOrigins = [
+    'http://localhost:5173',
+    'https://ali-express-client.onrender.com'
+];
+
 
 // middleware
 app.use(express.json());
@@ -17,7 +22,7 @@ app.use(cookieParser())
 app.use(express.urlencoded({ extended:false}));
 // Enable CORS with the specified options
 app.use(cors({
-    origin: process.env.ORIGIN,
+    origin: allowedOrigins,
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH'],
     credentials: true
 }));
