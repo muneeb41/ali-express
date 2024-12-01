@@ -1,4 +1,4 @@
-export const HOST = import.meta.env.HOST || 'http://localhost:8000';
+export const HOST = import.meta.env.VITE_SERVER_URL || 'http://localhost:8000';
 
 
 
