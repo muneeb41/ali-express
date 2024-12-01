@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import CountdownTimer from '../../../../components/ui/CountDownTimer'
-import SlideSection from '../../../../components/ui/slide-section'
-import apiStore from '../../../../lib/apiStore'
+import CountdownTimer from '../../../../components/ui/CountdownTimer/index.jsx';
+import SlideSection from '../../../../components/ui/slide-section/index.jsx'
+import apiStore from '../../../../lib/apiStore.js'
 import { toast } from'react-toastify';
 
 
